@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+    background-color:hsl(30, 38%, 92%);
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.top {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
+    border-radius: 15px 15px 0 0;
+}
+.c-body {
+    padding: 20px 25px;
+}
+
+.text-top {
+    font-size: 0.75rem;
+    color: hsl(228, 12%, 48%);
+}
+.text-title {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.text-paragraph {
+    font-size: 15px;
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+    padding: 5px 0;
+}
+
+.precios {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 15px 0;
+    align-items: center;
+}
+
+.precio-i {
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    padding-right: 20px;
+}
+
+.precio-d {
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    align-items: center;
+    text-decoration: line-through;
+} 
+
+.boton {
+    background-color:hsl(158, 36%, 37%);
+    padding: 5% 27%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color:hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (min-width:385px) {
+    body {
+        margin: 0 auto;
+        background-color: hsl(30, 38%, 92%);
+    }
+}
