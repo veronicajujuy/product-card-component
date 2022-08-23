@@ -31,6 +31,7 @@ body {
 .text-top {
     font-size: 0.75rem;
     color: hsl(228, 12%, 48%);
+    letter-spacing:0.3rem;
 }
 .text-title {
     font-family: 'Fraunces', serif;
@@ -69,8 +70,8 @@ body {
 
 .boton {
     background-color:hsl(158, 36%, 37%);
-    padding: 5% 27%;
-    width: 100%;
+    padding: 6% 45px;
+    width: 95%;
     border-radius: 5px;
     border: none;
     color:hsl(0, 0%, 100%);
@@ -79,9 +80,44 @@ body {
     justify-content: space-evenly;
 }
 
-@media (min-width:385px) {
+.boton-active {
+    background-color: hsl(158, 37%, 20%);
+}
+
+@media (min-width:640px) {
     body {
         margin: 0 auto;
         background-color: hsl(30, 38%, 92%);
+    }
+    .card {
+        margin: 0 auto;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        background-color: hsl(0, 0%, 100%);
+        width: 600px;
+        height: 446px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .top {
+        background-image: url(../images/image-product-desktop.jpg);
+        width: 324px;
+        height: 100%;
+        background-position:center;
+        /* background-size: 150%; */
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .c-body{
+        width: 276px
+    } 
+    .text-top {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .text-title {
+        padding-bottom: 20px;
     }
 }
