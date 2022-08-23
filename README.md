@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/veronicajujuy/product-card-component](https://github.com/veronicajujuy/product-card-component)
+- Live Site URL: [https://product-card-component-six.vercel.app/](https://product-card-component-six.vercel.app/)
 
 ## My process
 
@@ -54,5 +54,5 @@ I started to use js, and i will continue to improve it.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@veronicajujuy](https://www.frontendmentor.io/profile/veronicajujuy)
 
